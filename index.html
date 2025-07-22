@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Adrian B - Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+  />
+</head>
+<body>
+  <canvas id="particles-bg"></canvas>
+  <div class="container">
+    <section class="card main-card">
+      <div class="profile-img">
+        <img src="https://avatars.githubusercontent.com/u/9919?s=280&v=4" alt="Profile Picture"/>
+      </div>
+      <h1 class="name">Adrian B</h1>
+      <p class="role">Game &amp; Web Developer • Freelancer</p>
+      <p class="description">
+        I started programming Minecraft plugins at the age of 7, and soon after, got inspired by Notch to dive into Java game development.<br />
+        Over the years, I've created mods for games like GTA 5, Minecraft, and Lethal Company.<br />
+        Currently, I'm developing games in Unity and building modern web experiences.<br />
+        I am open for commisions, which combines my passion for technology and creativity to bring projects to life.
+      </p>
+      <div class="social-links">
+        <a href="https://steamcommunity.com/profiles/76561199181854419" target="_blank" class="icon steam" title="Steam"><i class="fab fa-steam"></i></a>
+        <a href="https://www.linkedin.com/in/adrian-bagherpour-9291542a8/" target="_blank" class="icon linkedin" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://x.com/wczbl" target="_blank" class="icon twitter" title="X"><i class="fab fa-x-twitter"></i></a>
+        <a href="https://www.youtube.com/@bandicamnick7903" target="_blank" class="icon youtube" title="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.buymeacoffee.com/adrianbagh7" target="_blank" class="icon coffee" title="Buy Me a Coffee"><i class="fas fa-mug-hot"></i></a>
+        <a href="https://www.fiverr.com/cchilla" target="_blank" class="icon fiverr" title="Fiverr"><i class="fas fa-briefcase"></i></a>
+        <a href="https://www.patreon.com/4e9" target="_blank" class="icon patreon" title="Patreon"><i class="fab fa-patreon"></i></a>
+      </div>
+    </section>
+
+    <section class="skills-section">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill-card">
+          <i class="fab fa-java"></i>
+          <span>Java</span>
+        </div>
+        <div class="skill-card">
+          <i class="fas fa-code"></i>
+          <span>C#</span>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-js-square"></i>
+          <span>JavaScript</span>
+        </div>
+      </div>
+      <h2>Specializations</h2>
+      <div class="specializations">
+        <div class="specialization-card"><i class="fas fa-gamepad"></i> Game Development</div>
+        <div class="specialization-card"><i class="fas fa-globe"></i> Web Development</div>
+      </div>
+    </section>
+
+    <section class="projects-section">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project-card">
+          <h3>Blood of Sabel</h3>
+          <img src="images/blood1_resized.png" alt="Blood of Sabel Screenshot" class="project-image"/>
+          <p>
+            A reimagining of the Abel and Cain story from The Bible, created as a university project with horror maze gameplay. I wrote most of the core systems:
+          </p>
+          <ul>
+            <li>Modular Player Controller (leaning, tilt headbob, stamina)</li>
+            <li>Maze Generation & Procedural Spawner</li>
+            <li>Dialogue System & Environmental Storytelling</li>
+            <li>Lanterns that flicker near enemies</li>
+            <li>Enemy AI and Item Sway/Breathing</li>
+          </ul>
+          <p style="font-size: 0.9rem; color: var(--text); opacity: 0.7;">
+            *This project is currently not publicly available
+          </p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
